@@ -1,0 +1,715 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6429C8262823EDA600DAA439 /* RandomUserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6429C8252823EDA600DAA439 /* RandomUserService.swift */; };
+		6429C8292823EDE700DAA439 /* RandomUserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6429C8282823EDE700DAA439 /* RandomUserModel.swift */; };
+		6472F67B283FCD760037026E /* ChaseNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6472F670283FCD760037026E /* ChaseNavigationView.swift */; };
+		6472F67C283FCD760037026E /* ChaseHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6472F671283FCD760037026E /* ChaseHeaderView.swift */; };
+		6472F67D283FCD760037026E /* ChaseHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6472F673283FCD760037026E /* ChaseHomeView.swift */; };
+		6472F67E283FCD760037026E /* ChaseAccountPillView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6472F675283FCD760037026E /* ChaseAccountPillView.swift */; };
+		6472F67F283FCD760037026E /* ChaseAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6472F676283FCD760037026E /* ChaseAccountView.swift */; };
+		6472F681283FCD760037026E /* ChaseActivityPillView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6472F678283FCD760037026E /* ChaseActivityPillView.swift */; };
+		6472F682283FCD760037026E /* ChaseActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6472F679283FCD760037026E /* ChaseActivityView.swift */; };
+		6472F683283FCD760037026E /* ChaseExpandedAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6472F67A283FCD760037026E /* ChaseExpandedAccountView.swift */; };
+		6472F6A5283FCDB70037026E /* ChaseColours.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6472F6A4283FCDB70037026E /* ChaseColours.swift */; };
+		6472F6A8283FCE460037026E /* ChaseContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6472F6A7283FCE460037026E /* ChaseContentView.swift */; };
+		6472F6AD283FCEF10037026E /* ChaseNutmegBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6472F6AC283FCEF10037026E /* ChaseNutmegBannerView.swift */; };
+		6498213F2844AEDD00F66056 /* MMOBBroadbandView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6498213E2844AEDD00F66056 /* MMOBBroadbandView.swift */; };
+		649965F32A96B4F600BFBB7D /* EfNetworkAiroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649965F22A96B4F600BFBB7D /* EfNetworkAiroView.swift */; };
+		64CFC4802863723F005EFCEC /* MMOBEcosystemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CFC47F2863723F005EFCEC /* MMOBEcosystemView.swift */; };
+		64D5172128254C55002660FE /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64D5172028254C55002660FE /* Launch Screen.storyboard */; };
+		64E6B0E72894133800C4507E /* MMOBHonsetMobileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E6B0E62894133800C4507E /* MMOBHonsetMobileView.swift */; };
+		64EDDB9D2823D9F80074E578 /* EfHubApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64EDDB9C2823D9F80074E578 /* EfHubApp.swift */; };
+		64EDDB9F2823D9F80074E578 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64EDDB9E2823D9F80074E578 /* ContentView.swift */; };
+		64EDDBA12823D9F90074E578 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64EDDBA02823D9F90074E578 /* Assets.xcassets */; };
+		64EDDBA42823D9F90074E578 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64EDDBA32823D9F90074E578 /* Preview Assets.xcassets */; };
+		64EDDBC52823DE990074E578 /* poppins.italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 64EDDBB62823DE650074E578 /* poppins.italic.ttf */; };
+		64EDDBC62823DE990074E578 /* poppins.thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 64EDDBBF2823DE660074E578 /* poppins.thin.ttf */; };
+		64EDDBC72823DE990074E578 /* poppins.extralight-italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 64EDDBBE2823DE650074E578 /* poppins.extralight-italic.ttf */; };
+		64EDDBC82823DE990074E578 /* poppins.black-italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 64EDDBC12823DE660074E578 /* poppins.black-italic.ttf */; };
+		64EDDBC92823DE990074E578 /* poppins.extrabold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 64EDDBBC2823DE650074E578 /* poppins.extrabold.ttf */; };
+		64EDDBCA2823DE990074E578 /* poppins.bold-italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 64EDDBBA2823DE650074E578 /* poppins.bold-italic.ttf */; };
+		64EDDBCB2823DE990074E578 /* poppins.light-italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 64EDDBB32823DE650074E578 /* poppins.light-italic.ttf */; };
+		64EDDBCC2823DE990074E578 /* poppins.thin-italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 64EDDBB22823DE650074E578 /* poppins.thin-italic.ttf */; };
+		64EDDBCD2823DE990074E578 /* poppins.semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 64EDDBBB2823DE650074E578 /* poppins.semibold.ttf */; };
+		64EDDBCE2823DE990074E578 /* poppins.bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 64EDDBB92823DE650074E578 /* poppins.bold.ttf */; };
+		64EDDBCF2823DE990074E578 /* poppins.extralight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 64EDDBBD2823DE650074E578 /* poppins.extralight.ttf */; };
+		64EDDBD02823DE990074E578 /* poppins.medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 64EDDBB42823DE650074E578 /* poppins.medium.ttf */; };
+		64EDDBD12823DE990074E578 /* poppins.semibold-italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 64EDDBB52823DE650074E578 /* poppins.semibold-italic.ttf */; };
+		64EDDBD22823DE990074E578 /* poppins.light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 64EDDBB82823DE650074E578 /* poppins.light.ttf */; };
+		64EDDBD32823DE990074E578 /* poppins.extrabold-italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 64EDDBC02823DE660074E578 /* poppins.extrabold-italic.ttf */; };
+		64EDDBD42823DE990074E578 /* poppins.medium-italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 64EDDBB72823DE650074E578 /* poppins.medium-italic.ttf */; };
+		64EDDBD52823DE990074E578 /* poppins.black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 64EDDBB12823DE650074E578 /* poppins.black.ttf */; };
+		64FC99D7287599E9005365EF /* MmobClient in Frameworks */ = {isa = PBXBuildFile; productRef = 64FC99D6287599E9005365EF /* MmobClient */; };
+		64FFFCDB2841237B008DC1AA /* MMOBPensionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64FFFCDA2841237B008DC1AA /* MMOBPensionView.swift */; };
+		CA1449DB2BA2AD17007738E0 /* MMOBFootballView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1449DA2BA2AD17007738E0 /* MMOBFootballView.swift */; };
+		CA3C02E32BA2C8C300B0476E /* MMOBCreditCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3C02E22BA2C8C300B0476E /* MMOBCreditCardView.swift */; };
+		CA835FF92BAD46A2005B3DD9 /* mmobCreditCardDPView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA835FF82BAD46A2005B3DD9 /* mmobCreditCardDPView.swift */; };
+		CA835FFB2BAD4771005B3DD9 /* mmobTakafulDPView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA835FFA2BAD4771005B3DD9 /* mmobTakafulDPView.swift */; };
+		CA835FFD2BAD739D005B3DD9 /* mmobDonationDPView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA835FFC2BAD739D005B3DD9 /* mmobDonationDPView.swift */; };
+		D208C8232B80EAEC0064D4FA /* servicesOptionsGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D208C8222B80EAEC0064D4FA /* servicesOptionsGridView.swift */; };
+		D208C8252B80FF010064D4FA /* servicesGroupOptions2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D208C8242B80FF010064D4FA /* servicesGroupOptions2.swift */; };
+		D208C8272B8104540064D4FA /* searchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D208C8262B8104540064D4FA /* searchBarView.swift */; };
+		D271CE782B8293770090868F /* seeMoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D271CE772B8293770090868F /* seeMoreView.swift */; };
+		D271CE7A2B8357F80090868F /* MMOBTakafulView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D271CE792B8357F80090868F /* MMOBTakafulView.swift */; };
+		D271CE7C2B8358590090868F /* mmobWealthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D271CE7B2B8358590090868F /* mmobWealthView.swift */; };
+		D271CE7E2B8358D50090868F /* mmobFinancingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D271CE7D2B8358D50090868F /* mmobFinancingView.swift */; };
+		D271CE802B8359230090868F /* mmobDonationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D271CE7F2B8359230090868F /* mmobDonationView.swift */; };
+		F3442F31299D33E300E87E0D /* MMOBRBCView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3442F30299D33E300E87E0D /* MMOBRBCView.swift */; };
+		F3442F3529A4EA2600E87E0D /* MMOBBusMkt.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3442F3429A4EA2600E87E0D /* MMOBBusMkt.swift */; };
+		F3442F3729A4EA5600E87E0D /* MMOBPersMkt.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3442F3629A4EA5600E87E0D /* MMOBPersMkt.swift */; };
+		F3442F3929A50C9E00E87E0D /* MMOBSuperScriptView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3442F3829A50C9E00E87E0D /* MMOBSuperScriptView.swift */; };
+		F3442F3B29A637BB00E87E0D /* MMOBIwocaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3442F3A29A637BB00E87E0D /* MMOBIwocaView.swift */; };
+		F3442F3D29A6380C00E87E0D /* MMOBUinsureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3442F3C29A6380B00E87E0D /* MMOBUinsureView.swift */; };
+		F3442F3F29A6384E00E87E0D /* MMOBLoyaltyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3442F3E29A6384E00E87E0D /* MMOBLoyaltyView.swift */; };
+		F3B8D7A829A6816F0032ADB7 /* MMOBClearView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B8D7A729A6816F0032ADB7 /* MMOBClearView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6429C8252823EDA600DAA439 /* RandomUserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomUserService.swift; sourceTree = "<group>"; };
+		6429C8282823EDE700DAA439 /* RandomUserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomUserModel.swift; sourceTree = "<group>"; };
+		6472F670283FCD760037026E /* ChaseNavigationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChaseNavigationView.swift; sourceTree = "<group>"; };
+		6472F671283FCD760037026E /* ChaseHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChaseHeaderView.swift; sourceTree = "<group>"; };
+		6472F673283FCD760037026E /* ChaseHomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChaseHomeView.swift; sourceTree = "<group>"; };
+		6472F675283FCD760037026E /* ChaseAccountPillView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChaseAccountPillView.swift; sourceTree = "<group>"; };
+		6472F676283FCD760037026E /* ChaseAccountView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChaseAccountView.swift; sourceTree = "<group>"; };
+		6472F678283FCD760037026E /* ChaseActivityPillView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChaseActivityPillView.swift; sourceTree = "<group>"; };
+		6472F679283FCD760037026E /* ChaseActivityView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChaseActivityView.swift; sourceTree = "<group>"; };
+		6472F67A283FCD760037026E /* ChaseExpandedAccountView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChaseExpandedAccountView.swift; sourceTree = "<group>"; };
+		6472F6A4283FCDB70037026E /* ChaseColours.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChaseColours.swift; sourceTree = "<group>"; };
+		6472F6A7283FCE460037026E /* ChaseContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChaseContentView.swift; sourceTree = "<group>"; };
+		6472F6AC283FCEF10037026E /* ChaseNutmegBannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChaseNutmegBannerView.swift; sourceTree = "<group>"; };
+		6498213E2844AEDD00F66056 /* MMOBBroadbandView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMOBBroadbandView.swift; sourceTree = "<group>"; };
+		649965F22A96B4F600BFBB7D /* EfNetworkAiroView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EfNetworkAiroView.swift; sourceTree = "<group>"; };
+		64CFC47F2863723F005EFCEC /* MMOBEcosystemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMOBEcosystemView.swift; sourceTree = "<group>"; };
+		64D5172028254C55002660FE /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		64E6B0E62894133800C4507E /* MMOBHonsetMobileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMOBHonsetMobileView.swift; sourceTree = "<group>"; };
+		64EDDB992823D9F80074E578 /* Chase Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chase Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		64EDDB9C2823D9F80074E578 /* EfHubApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EfHubApp.swift; sourceTree = "<group>"; };
+		64EDDB9E2823D9F80074E578 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		64EDDBA02823D9F90074E578 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		64EDDBA32823D9F90074E578 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		64EDDBB12823DE650074E578 /* poppins.black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = poppins.black.ttf; sourceTree = "<group>"; };
+		64EDDBB22823DE650074E578 /* poppins.thin-italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "poppins.thin-italic.ttf"; sourceTree = "<group>"; };
+		64EDDBB32823DE650074E578 /* poppins.light-italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "poppins.light-italic.ttf"; sourceTree = "<group>"; };
+		64EDDBB42823DE650074E578 /* poppins.medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = poppins.medium.ttf; sourceTree = "<group>"; };
+		64EDDBB52823DE650074E578 /* poppins.semibold-italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "poppins.semibold-italic.ttf"; sourceTree = "<group>"; };
+		64EDDBB62823DE650074E578 /* poppins.italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = poppins.italic.ttf; sourceTree = "<group>"; };
+		64EDDBB72823DE650074E578 /* poppins.medium-italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "poppins.medium-italic.ttf"; sourceTree = "<group>"; };
+		64EDDBB82823DE650074E578 /* poppins.light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = poppins.light.ttf; sourceTree = "<group>"; };
+		64EDDBB92823DE650074E578 /* poppins.bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = poppins.bold.ttf; sourceTree = "<group>"; };
+		64EDDBBA2823DE650074E578 /* poppins.bold-italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "poppins.bold-italic.ttf"; sourceTree = "<group>"; };
+		64EDDBBB2823DE650074E578 /* poppins.semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = poppins.semibold.ttf; sourceTree = "<group>"; };
+		64EDDBBC2823DE650074E578 /* poppins.extrabold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = poppins.extrabold.ttf; sourceTree = "<group>"; };
+		64EDDBBD2823DE650074E578 /* poppins.extralight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = poppins.extralight.ttf; sourceTree = "<group>"; };
+		64EDDBBE2823DE650074E578 /* poppins.extralight-italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "poppins.extralight-italic.ttf"; sourceTree = "<group>"; };
+		64EDDBBF2823DE660074E578 /* poppins.thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = poppins.thin.ttf; sourceTree = "<group>"; };
+		64EDDBC02823DE660074E578 /* poppins.extrabold-italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "poppins.extrabold-italic.ttf"; sourceTree = "<group>"; };
+		64EDDBC12823DE660074E578 /* poppins.black-italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "poppins.black-italic.ttf"; sourceTree = "<group>"; };
+		64EDDBC32823DE760074E578 /* readme.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = readme.txt; sourceTree = "<group>"; };
+		64EDDBD62823DF910074E578 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		64FFFCDA2841237B008DC1AA /* MMOBPensionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMOBPensionView.swift; sourceTree = "<group>"; };
+		CA1449DA2BA2AD17007738E0 /* MMOBFootballView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MMOBFootballView.swift; sourceTree = "<group>"; };
+		CA3C02E22BA2C8C300B0476E /* MMOBCreditCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MMOBCreditCardView.swift; sourceTree = "<group>"; };
+		CA835FF82BAD46A2005B3DD9 /* mmobCreditCardDPView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mmobCreditCardDPView.swift; sourceTree = "<group>"; };
+		CA835FFA2BAD4771005B3DD9 /* mmobTakafulDPView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mmobTakafulDPView.swift; sourceTree = "<group>"; };
+		CA835FFC2BAD739D005B3DD9 /* mmobDonationDPView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mmobDonationDPView.swift; sourceTree = "<group>"; };
+		D208C8222B80EAEC0064D4FA /* servicesOptionsGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = servicesOptionsGridView.swift; sourceTree = "<group>"; };
+		D208C8242B80FF010064D4FA /* servicesGroupOptions2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = servicesGroupOptions2.swift; sourceTree = "<group>"; };
+		D208C8262B8104540064D4FA /* searchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchBarView.swift; sourceTree = "<group>"; };
+		D271CE772B8293770090868F /* seeMoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = seeMoreView.swift; sourceTree = "<group>"; };
+		D271CE792B8357F80090868F /* MMOBTakafulView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMOBTakafulView.swift; sourceTree = "<group>"; };
+		D271CE7B2B8358590090868F /* mmobWealthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mmobWealthView.swift; sourceTree = "<group>"; };
+		D271CE7D2B8358D50090868F /* mmobFinancingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mmobFinancingView.swift; sourceTree = "<group>"; };
+		D271CE7F2B8359230090868F /* mmobDonationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mmobDonationView.swift; sourceTree = "<group>"; };
+		F3442F30299D33E300E87E0D /* MMOBRBCView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMOBRBCView.swift; sourceTree = "<group>"; };
+		F3442F3429A4EA2600E87E0D /* MMOBBusMkt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMOBBusMkt.swift; sourceTree = "<group>"; };
+		F3442F3629A4EA5600E87E0D /* MMOBPersMkt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMOBPersMkt.swift; sourceTree = "<group>"; };
+		F3442F3829A50C9E00E87E0D /* MMOBSuperScriptView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMOBSuperScriptView.swift; sourceTree = "<group>"; };
+		F3442F3A29A637BB00E87E0D /* MMOBIwocaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMOBIwocaView.swift; sourceTree = "<group>"; };
+		F3442F3C29A6380B00E87E0D /* MMOBUinsureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMOBUinsureView.swift; sourceTree = "<group>"; };
+		F3442F3E29A6384E00E87E0D /* MMOBLoyaltyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMOBLoyaltyView.swift; sourceTree = "<group>"; };
+		F3B8D7A729A6816F0032ADB7 /* MMOBClearView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMOBClearView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		64EDDB962823D9F80074E578 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64FC99D7287599E9005365EF /* MmobClient in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		640AD33428410E54006E1647 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6429C81C2823EBB800DAA439 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		6429C8242823ED8700DAA439 /* services */ = {
+			isa = PBXGroup;
+			children = (
+				6429C8252823EDA600DAA439 /* RandomUserService.swift */,
+			);
+			path = services;
+			sourceTree = "<group>";
+		};
+		6429C8272823EDCE00DAA439 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				6429C8282823EDE700DAA439 /* RandomUserModel.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		6472F66E283FCD760037026E /* chase */ = {
+			isa = PBXGroup;
+			children = (
+				6472F6A6283FCE2A0037026E /* mmob */,
+				6472F66F283FCD760037026E /* navigation */,
+				6472F672283FCD760037026E /* content */,
+			);
+			path = chase;
+			sourceTree = "<group>";
+		};
+		6472F66F283FCD760037026E /* navigation */ = {
+			isa = PBXGroup;
+			children = (
+				6472F670283FCD760037026E /* ChaseNavigationView.swift */,
+				6472F671283FCD760037026E /* ChaseHeaderView.swift */,
+			);
+			path = navigation;
+			sourceTree = "<group>";
+		};
+		6472F672283FCD760037026E /* content */ = {
+			isa = PBXGroup;
+			children = (
+				6472F674283FCD760037026E /* modules */,
+				6472F673283FCD760037026E /* ChaseHomeView.swift */,
+				6472F67A283FCD760037026E /* ChaseExpandedAccountView.swift */,
+				6472F6AC283FCEF10037026E /* ChaseNutmegBannerView.swift */,
+				D208C8222B80EAEC0064D4FA /* servicesOptionsGridView.swift */,
+				D208C8242B80FF010064D4FA /* servicesGroupOptions2.swift */,
+				F3442F3429A4EA2600E87E0D /* MMOBBusMkt.swift */,
+				F3442F3629A4EA5600E87E0D /* MMOBPersMkt.swift */,
+			);
+			path = content;
+			sourceTree = "<group>";
+		};
+		6472F674283FCD760037026E /* modules */ = {
+			isa = PBXGroup;
+			children = (
+				6472F675283FCD760037026E /* ChaseAccountPillView.swift */,
+				6472F676283FCD760037026E /* ChaseAccountView.swift */,
+				6472F678283FCD760037026E /* ChaseActivityPillView.swift */,
+				6472F679283FCD760037026E /* ChaseActivityView.swift */,
+				D271CE772B8293770090868F /* seeMoreView.swift */,
+				D208C8262B8104540064D4FA /* searchBarView.swift */,
+			);
+			path = modules;
+			sourceTree = "<group>";
+		};
+		6472F6A6283FCE2A0037026E /* mmob */ = {
+			isa = PBXGroup;
+			children = (
+				649965F22A96B4F600BFBB7D /* EfNetworkAiroView.swift */,
+				64FFFCDA2841237B008DC1AA /* MMOBPensionView.swift */,
+				6498213E2844AEDD00F66056 /* MMOBBroadbandView.swift */,
+				F3442F30299D33E300E87E0D /* MMOBRBCView.swift */,
+				F3442F3829A50C9E00E87E0D /* MMOBSuperScriptView.swift */,
+				F3442F3A29A637BB00E87E0D /* MMOBIwocaView.swift */,
+				F3442F3C29A6380B00E87E0D /* MMOBUinsureView.swift */,
+				F3442F3E29A6384E00E87E0D /* MMOBLoyaltyView.swift */,
+				64CFC47F2863723F005EFCEC /* MMOBEcosystemView.swift */,
+				64E6B0E62894133800C4507E /* MMOBHonsetMobileView.swift */,
+				F3B8D7A729A6816F0032ADB7 /* MMOBClearView.swift */,
+				D271CE792B8357F80090868F /* MMOBTakafulView.swift */,
+				CA835FFA2BAD4771005B3DD9 /* mmobTakafulDPView.swift */,
+				CA1449DA2BA2AD17007738E0 /* MMOBFootballView.swift */,
+				CA3C02E22BA2C8C300B0476E /* MMOBCreditCardView.swift */,
+				CA835FF82BAD46A2005B3DD9 /* mmobCreditCardDPView.swift */,
+				D271CE7B2B8358590090868F /* mmobWealthView.swift */,
+				D271CE7D2B8358D50090868F /* mmobFinancingView.swift */,
+				D271CE7F2B8359230090868F /* mmobDonationView.swift */,
+				CA835FFC2BAD739D005B3DD9 /* mmobDonationDPView.swift */,
+			);
+			path = mmob;
+			sourceTree = "<group>";
+		};
+		64EDDB902823D9F80074E578 = {
+			isa = PBXGroup;
+			children = (
+				6429C81C2823EBB800DAA439 /* Packages */,
+				64EDDB9B2823D9F80074E578 /* EfHub */,
+				64EDDB9A2823D9F80074E578 /* Products */,
+				640AD33428410E54006E1647 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		64EDDB9A2823D9F80074E578 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				64EDDB992823D9F80074E578 /* Chase Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		64EDDB9B2823D9F80074E578 /* EfHub */ = {
+			isa = PBXGroup;
+			children = (
+				6429C8272823EDCE00DAA439 /* model */,
+				64EDDBD62823DF910074E578 /* Info.plist */,
+				64EDDBAD2823DB7D0074E578 /* assets */,
+				6429C8242823ED8700DAA439 /* services */,
+				64EDDBAA2823DA290074E578 /* views */,
+				64EDDB9C2823D9F80074E578 /* EfHubApp.swift */,
+				6472F6A7283FCE460037026E /* ChaseContentView.swift */,
+				64EDDB9E2823D9F80074E578 /* ContentView.swift */,
+				64EDDBA02823D9F90074E578 /* Assets.xcassets */,
+				64D5172028254C55002660FE /* Launch Screen.storyboard */,
+				64EDDBA22823D9F90074E578 /* Preview Content */,
+			);
+			path = EfHub;
+			sourceTree = "<group>";
+		};
+		64EDDBA22823D9F90074E578 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				64EDDBA32823D9F90074E578 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		64EDDBAA2823DA290074E578 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				6472F66E283FCD760037026E /* chase */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		64EDDBAD2823DB7D0074E578 /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				6472F6A4283FCDB70037026E /* ChaseColours.swift */,
+				64EDDBAE2823DB820074E578 /* fonts */,
+			);
+			path = assets;
+			sourceTree = "<group>";
+		};
+		64EDDBAE2823DB820074E578 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				64EDDBC42823DE880074E578 /* poppins-family */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		64EDDBC42823DE880074E578 /* poppins-family */ = {
+			isa = PBXGroup;
+			children = (
+				64EDDBC12823DE660074E578 /* poppins.black-italic.ttf */,
+				64EDDBB12823DE650074E578 /* poppins.black.ttf */,
+				64EDDBBA2823DE650074E578 /* poppins.bold-italic.ttf */,
+				64EDDBB92823DE650074E578 /* poppins.bold.ttf */,
+				64EDDBC02823DE660074E578 /* poppins.extrabold-italic.ttf */,
+				64EDDBBC2823DE650074E578 /* poppins.extrabold.ttf */,
+				64EDDBBE2823DE650074E578 /* poppins.extralight-italic.ttf */,
+				64EDDBBD2823DE650074E578 /* poppins.extralight.ttf */,
+				64EDDBB62823DE650074E578 /* poppins.italic.ttf */,
+				64EDDBB32823DE650074E578 /* poppins.light-italic.ttf */,
+				64EDDBB82823DE650074E578 /* poppins.light.ttf */,
+				64EDDBB72823DE650074E578 /* poppins.medium-italic.ttf */,
+				64EDDBB42823DE650074E578 /* poppins.medium.ttf */,
+				64EDDBB52823DE650074E578 /* poppins.semibold-italic.ttf */,
+				64EDDBBB2823DE650074E578 /* poppins.semibold.ttf */,
+				64EDDBB22823DE650074E578 /* poppins.thin-italic.ttf */,
+				64EDDBBF2823DE660074E578 /* poppins.thin.ttf */,
+				64EDDBC32823DE760074E578 /* readme.txt */,
+			);
+			path = "poppins-family";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		64EDDB982823D9F80074E578 /* EfHub */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64EDDBA72823D9F90074E578 /* Build configuration list for PBXNativeTarget "EfHub" */;
+			buildPhases = (
+				64EDDB952823D9F80074E578 /* Sources */,
+				64EDDB962823D9F80074E578 /* Frameworks */,
+				64EDDB972823D9F80074E578 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EfHub;
+			packageProductDependencies = (
+				64FC99D6287599E9005365EF /* MmobClient */,
+			);
+			productName = EfHub;
+			productReference = 64EDDB992823D9F80074E578 /* Chase Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		64EDDB912823D9F80074E578 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					64EDDB982823D9F80074E578 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 64EDDB942823D9F80074E578 /* Build configuration list for PBXProject "EfHub" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 64EDDB902823D9F80074E578;
+			packageReferences = (
+				64FC99D5287599E9005365EF /* XCRemoteSwiftPackageReference "mmob-client-ios" */,
+			);
+			productRefGroup = 64EDDB9A2823D9F80074E578 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				64EDDB982823D9F80074E578 /* EfHub */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		64EDDB972823D9F80074E578 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64EDDBCF2823DE990074E578 /* poppins.extralight.ttf in Resources */,
+				64EDDBCE2823DE990074E578 /* poppins.bold.ttf in Resources */,
+				64EDDBD02823DE990074E578 /* poppins.medium.ttf in Resources */,
+				64EDDBCB2823DE990074E578 /* poppins.light-italic.ttf in Resources */,
+				64EDDBD32823DE990074E578 /* poppins.extrabold-italic.ttf in Resources */,
+				64EDDBC52823DE990074E578 /* poppins.italic.ttf in Resources */,
+				64EDDBA42823D9F90074E578 /* Preview Assets.xcassets in Resources */,
+				64EDDBC62823DE990074E578 /* poppins.thin.ttf in Resources */,
+				64EDDBC72823DE990074E578 /* poppins.extralight-italic.ttf in Resources */,
+				64EDDBA12823D9F90074E578 /* Assets.xcassets in Resources */,
+				64EDDBCD2823DE990074E578 /* poppins.semibold.ttf in Resources */,
+				64EDDBD12823DE990074E578 /* poppins.semibold-italic.ttf in Resources */,
+				64EDDBD52823DE990074E578 /* poppins.black.ttf in Resources */,
+				64EDDBD42823DE990074E578 /* poppins.medium-italic.ttf in Resources */,
+				64EDDBC82823DE990074E578 /* poppins.black-italic.ttf in Resources */,
+				64EDDBD22823DE990074E578 /* poppins.light.ttf in Resources */,
+				64EDDBCA2823DE990074E578 /* poppins.bold-italic.ttf in Resources */,
+				64EDDBCC2823DE990074E578 /* poppins.thin-italic.ttf in Resources */,
+				64D5172128254C55002660FE /* Launch Screen.storyboard in Resources */,
+				64EDDBC92823DE990074E578 /* poppins.extrabold.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		64EDDB952823D9F80074E578 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6472F67C283FCD760037026E /* ChaseHeaderView.swift in Sources */,
+				6472F67D283FCD760037026E /* ChaseHomeView.swift in Sources */,
+				D271CE7C2B8358590090868F /* mmobWealthView.swift in Sources */,
+				F3442F3529A4EA2600E87E0D /* MMOBBusMkt.swift in Sources */,
+				CA3C02E32BA2C8C300B0476E /* MMOBCreditCardView.swift in Sources */,
+				6472F67E283FCD760037026E /* ChaseAccountPillView.swift in Sources */,
+				F3442F3D29A6380C00E87E0D /* MMOBUinsureView.swift in Sources */,
+				6429C8262823EDA600DAA439 /* RandomUserService.swift in Sources */,
+				CA1449DB2BA2AD17007738E0 /* MMOBFootballView.swift in Sources */,
+				D271CE782B8293770090868F /* seeMoreView.swift in Sources */,
+				D271CE802B8359230090868F /* mmobDonationView.swift in Sources */,
+				6429C8292823EDE700DAA439 /* RandomUserModel.swift in Sources */,
+				6472F67B283FCD760037026E /* ChaseNavigationView.swift in Sources */,
+				F3442F31299D33E300E87E0D /* MMOBRBCView.swift in Sources */,
+				D208C8232B80EAEC0064D4FA /* servicesOptionsGridView.swift in Sources */,
+				D208C8252B80FF010064D4FA /* servicesGroupOptions2.swift in Sources */,
+				D271CE7E2B8358D50090868F /* mmobFinancingView.swift in Sources */,
+				CA835FFD2BAD739D005B3DD9 /* mmobDonationDPView.swift in Sources */,
+				F3442F3B29A637BB00E87E0D /* MMOBIwocaView.swift in Sources */,
+				F3B8D7A829A6816F0032ADB7 /* MMOBClearView.swift in Sources */,
+				649965F32A96B4F600BFBB7D /* EfNetworkAiroView.swift in Sources */,
+				CA835FFB2BAD4771005B3DD9 /* mmobTakafulDPView.swift in Sources */,
+				6498213F2844AEDD00F66056 /* MMOBBroadbandView.swift in Sources */,
+				6472F681283FCD760037026E /* ChaseActivityPillView.swift in Sources */,
+				64FFFCDB2841237B008DC1AA /* MMOBPensionView.swift in Sources */,
+				D271CE7A2B8357F80090868F /* MMOBTakafulView.swift in Sources */,
+				F3442F3929A50C9E00E87E0D /* MMOBSuperScriptView.swift in Sources */,
+				64EDDB9F2823D9F80074E578 /* ContentView.swift in Sources */,
+				6472F683283FCD760037026E /* ChaseExpandedAccountView.swift in Sources */,
+				D208C8272B8104540064D4FA /* searchBarView.swift in Sources */,
+				6472F67F283FCD760037026E /* ChaseAccountView.swift in Sources */,
+				F3442F3729A4EA5600E87E0D /* MMOBPersMkt.swift in Sources */,
+				64CFC4802863723F005EFCEC /* MMOBEcosystemView.swift in Sources */,
+				64E6B0E72894133800C4507E /* MMOBHonsetMobileView.swift in Sources */,
+				6472F6AD283FCEF10037026E /* ChaseNutmegBannerView.swift in Sources */,
+				6472F6A5283FCDB70037026E /* ChaseColours.swift in Sources */,
+				CA835FF92BAD46A2005B3DD9 /* mmobCreditCardDPView.swift in Sources */,
+				F3442F3F29A6384E00E87E0D /* MMOBLoyaltyView.swift in Sources */,
+				6472F6A8283FCE460037026E /* ChaseContentView.swift in Sources */,
+				6472F682283FCD760037026E /* ChaseActivityView.swift in Sources */,
+				64EDDB9D2823D9F80074E578 /* EfHubApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		64EDDBA52823D9F90074E578 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		64EDDBA62823D9F90074E578 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		64EDDBA82823D9F90074E578 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_ASSET_PATHS = "\"EfHub/Preview Content\"";
+				DEVELOPMENT_TEAM = 226H7MA5T5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EfHub/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Chase Demo";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chase.ef-hub";
+				PRODUCT_NAME = "Chase Demo";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		64EDDBA92823D9F90074E578 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_ASSET_PATHS = "\"EfHub/Preview Content\"";
+				DEVELOPMENT_TEAM = 226H7MA5T5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EfHub/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Chase Demo";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chase.ef-hub";
+				PRODUCT_NAME = "Chase Demo";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		64EDDB942823D9F80074E578 /* Build configuration list for PBXProject "EfHub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64EDDBA52823D9F90074E578 /* Debug */,
+				64EDDBA62823D9F90074E578 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64EDDBA72823D9F90074E578 /* Build configuration list for PBXNativeTarget "EfHub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64EDDBA82823D9F90074E578 /* Debug */,
+				64EDDBA92823D9F90074E578 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		64FC99D5287599E9005365EF /* XCRemoteSwiftPackageReference "mmob-client-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mmob-tech/mmob-client-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.2.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		64FC99D6287599E9005365EF /* MmobClient */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 64FC99D5287599E9005365EF /* XCRemoteSwiftPackageReference "mmob-client-ios" */;
+			productName = MmobClient;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 64EDDB912823D9F80074E578 /* Project object */;
+}

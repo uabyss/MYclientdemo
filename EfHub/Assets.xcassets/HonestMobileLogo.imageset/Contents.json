@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "Honest-logo_horizontal_light_300x100 1.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "Honest-logo_horizontal_light_300x100 1@2x.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "Honest-logo_horizontal_light_300x100 1@3x.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

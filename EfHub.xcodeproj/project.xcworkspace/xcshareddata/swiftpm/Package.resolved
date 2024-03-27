@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "mmob-client-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/mmob-tech/mmob-client-ios",
+      "state" : {
+        "revision" : "f51560ff4bc076dee548f2da2708c3bf17413835",
+        "version" : "0.4.12"
+      }
+    }
+  ],
+  "version" : 2
+}
